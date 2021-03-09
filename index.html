@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Portfolio</title>
+          <link rel="stylesheet" href="css/style.css" />
+     </head>
+     <body>
+          <!-- ----- Container Start's------ -->
+          <div class="container">
+               <!-- -------Navbar Start's-------- -->
+               <header class="container navbar">
+                    <div class="logo">
+                         <h2>Gandhodi <span class="second">Jayanth</span></h2>
+                    </div>
+                    <nav class="main-navbar">
+                         <ul class="nav-unlist">
+                              <li><a href="#home" class="active">Home</a></li>
+                              <li>
+                                   <a href="#about">AboutMe</a>
+                              </li>
+                              <li><a href="#skills">Skills</a></li>
+                              <li><a href="#work">Work</a></li>
+                              <li>
+                                   <a href="#contact">Contact <span class="info">Info</span></a>
+                              </li>
+                         </ul>
+                    </nav>
+               </header>
+               <!-- -------Navbar End's-------- -->
+               <!-- ---------------------main Start's------------------ -->
+               <div class="content-main" id="home">
+                    <!-- ---------Main-left Start's------------ -->
+                    <div class="content-main-left">
+                         <div class="text">
+                              <h1>
+                                   <span>H</span>
+                                   <span class="m-left">i</span>
+                                   <span class="m-left">,</span>
+                                   <br />
+                                   <span>I</span>
+                                   <span class="m-left">'</span>
+                                   <span class="m-left">m &nbsp;</span>
+                                   <span class="name">G</span>
+                                   <span class="m-left name">a</span>
+                                   <span class="m-left name">n</span>
+                                   <span class="m-left name">d</span>
+                                   <span class="m-left name">h</span>
+                                   <span class="m-left name">o</span>
+                                   <span class="m-left name">d</span>
+                                   <span class="m-left name">i</span>
+                                   <span class="name name">J</span>
+                                   <span class="m-left name">a</span>
+                                   <span class="m-left name">y</span>
+                                   <span class="m-left name">a</span>
+                                   <span class="m-left name">n</span>
+                                   <span class="m-left name">t</span>
+                                   <span class="m-left name">h</span>
+                                   <span class="m-left">,</span>
+                                   <br />
+                                   <span>U</span>
+                                   <span class="m-left">I</span>
+                                   <span class="m-left">/</span>
+                                   <span>U</span>
+                                   <span class="m-left">X &nbsp;</span>
+                                   <span>D</span>
+                                   <span class="m-left">e</span>
+                                   <span class="m-left">s</span>
+                                   <span class="m-left">i</span>
+                                   <span class="m-left">g</span>
+                                   <span class="m-left">n</span>
+                                   <span class="m-left">e</span>
+                                   <span class="m-left">r</span>
+                              </h1>
+                              <p>Html/Css/Javascript/React</p>
+                              <a href="contact" id = "contact1" onclick = "this.contactBtn">Contact Me</a>
+                         </div>
+                    </div>
+                    <!-- ---------Main-left End's------------ -->
+                    <!-- ---------Main-Right Start's------------ -->
+                    <div class="content-main-right">
+                         <img src="images/me.png" alt="" <abbr title = "Gandhodi Jayanth"></abbr> />
+                    </div>
+                    <!-- ---------Main-left End's------------ -->
+               </div>
+               <!-- ---------Main End's------------ -->
+               <!-- ------About  Start's------ -->
+               <div class="content-about" id="about">
+                    <h1><span class="about-me">About</span>Me</h1>
+                    <div class="about-info">
+                         <p>
+                              Passionate front-end web developer with <span class="num">2.7 years </span>of experience using React
+                              JS, JavaScript, HTML, and CSS to build all aspects of the user experience and user interface for
+                              client-facing landing pages.
+                         </p>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eligendi eius asperiores id soluta nam itaque odit unde, saepe delectus.</p>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nihil a nulla. Hic, repudiandae porro.</p>
+                    </div>
+                    <!-- <img src="images/dotted-shape.png" alt="" /> -->
+               </div>
+               <!-- ------About  End's------ -->
+               <!-- ------Skills  Start's------ -->
+               <div class="content-skills" id="skills">
+                    <h1>Skills</h1>
+                    <div class="skills-info">
+                         <div class="tag tag-html">
+                              <p>HTML</p>
+                         </div>
+                         <div class="progress-bar">
+                              <div class=" bar bar-html"></div>
+                         </div>
+                    </div>
+                    <div class="skills-info">
+                         <div class="tag tag-css">
+                              <p>CSS</p>
+                         </div>
+                         <div class="progress-bar">
+                              <div class="bar bar-css"></div>
+                         </div>
+                    </div>
+                    <div class="skills-info">
+                         <div class="tag tag-js">
+                              <p>JavaScript</p>
+                         </div>
+                         <div class="progress-bar">
+                              <div class="bar  bar-js"></div>
+                         </div> 
+                    </div>
+                    <div class="skills-info">
+                         <div class="tag tag-react">
+                              <p>ReactJS</p>
+                         </div>
+                         <div class="progress-bar">
+                              <div class="bar bar-react"></div>
+                         </div>
+                    </div>
+               </div>
+               <!-- ------Skills  End's------ -->
+               <!-- ------Work  Start's------ -->
+               <div class="content-work" id="work">
+                    <h1>Work</h1>
+                    <div class="info-work">
+                         <button id="design" class="active"onclick = "showRequiredCategory(this)">Designs</button>
+                         <button id="animation"   onclick = "showRequiredCategory(this)"   >Animation</button>
+                         <button id="project"   onclick = "showRequiredCategory(this)">Project</button>
+                    </div>
+                    <div class="category-design showcase">
+                         <a href=""><img src="images/starbucks.png" alt="" /></a>
+                         <a href=""><img src="images/pepsi.png" alt="" /></a>
+                         <a href=""><img src="images/Holidays.png" alt="" /></a>
+                         <a href=""><img src="images/loginform.png" alt="" /></a>
+                    </div>
+                    <div class="category-design hidecase">
+                         <a href=""><img src="images/starbucks.png" alt="" /></a>
+                         <a href=""><img src="images/pepsi.png" alt="" /></a>
+                    </div>
+                    <div class="category-design hidecase">
+                         <a href=""><img src="images/Holidays.png" alt="" /></a>
+                         <a href=""><img src="images/loginform.png" alt="" /></a>
+                    </div>
+               </div>
+               <!-- ------Work  End's------ -->
+               <!-- ------Contact  Start's------ -->
+               <div class="content-contact" id="contact">
+                    <h1>Contact Me</h1>
+                    <form action="">
+                         <input type="text" name="name" placeholder="Full Name" />
+                         <input type="email" placeholder="example@somewhere.com" />
+                         <textarea name="message" id="" cols="30" rows="10" placeholder="Message your Requirements"></textarea>
+                         <button action="submit" id="submit-btn">Submit</button>
+                    </form>
+               </div>
+               <!-- ------Contact  End's------ -->
+               <!-- -----Footer Start's-------------- -->
+               <footer>
+                    <hr />
+                    <p>Jaywebdesigner &#169; 2021 </p>
+               </footer>
+               <!-- -----Footer End's-------------- -->
+          </div>
+          <!-- ----- Container End's------ -->
+          <!-- ---------Script's----------- -->
+          <script src="js/index.js"></script>
+          <!-- -----Other Scripts----- -->
+         <script src="js/outerscripts/animation.gsap.min.js"></script>
+         <script src="js/outerscripts/CSSPlugin.min.js"></script>
+         <script src="js/outerscripts/ScrollMagic.min.js"></script>
+         <script src="js/outerscripts/TimelineLite.min.js"></script>
+         <script src="js/outerscripts/TweenMax.min.js"></script>
+         <script src="js/index.js"></script>
+     </body>
+</html>
